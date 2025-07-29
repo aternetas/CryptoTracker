@@ -46,7 +46,7 @@ extension HomeView {
             Text(isShowPortfolio ? "Portfolio" : "Live Prices")
                 .font(.headline)
                 .fontWeight(.heavy)
-                .foregroundStyle(Color.ocher)
+                .foregroundStyle(.ocher)
                 .animation(.none)
             
             Spacer()

@@ -73,3 +73,14 @@ struct CoinModel: Identifiable, Codable {
                   holdings: holdings)
     }
 }
+
+extension CoinModel {
+    static let mockModel = CoinModel(id: "bitcoin",
+                                     symbol: "btc",
+                                     name: "Bitcoin",
+                                     imageUrl: "https://coin-images.coingecko.com/coins/images/1/large/bitcoin.png?1696501400",
+                                     price: 117836,
+                                     priceChangeInPercent24H: 0.06011,
+                                     rank: 1,
+                                     holdings: nil)
+}
