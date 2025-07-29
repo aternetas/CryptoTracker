@@ -2,7 +2,7 @@
 //  CryptoTrackerApp.swift
 //  CryptoTracker
 //
-//  Created by f f on 29.07.2025.
+//  Created by aternetas on 29.07.2025.
 //
 
 import SwiftUI
@@ -11,7 +11,9 @@ import SwiftUI
 struct CryptoTrackerApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationView {
+                HomeView()
+            }
         }
     }
 }
